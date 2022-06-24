@@ -1,0 +1,15 @@
+@import '../../scss/variables';
+
+.header{
+    text-align: center;
+    font-size: 2rem;
+    padding: 0.5rem;
+    margin: 1rem;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.header:hover{
+    background-color: rgba(0,0,0,0.6);
+    cursor: pointer;
+    color: $backgroundColor;
+}
